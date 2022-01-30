@@ -1,0 +1,11 @@
+syntax = "proto3";
+package proto;
+
+// protoc --gofast_out=. *.proto
+message HearBeat {
+    int64 HearBeatId = 1;
+}
+
+message Broadcast {
+    string Content = 1;
+}
