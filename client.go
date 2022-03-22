@@ -92,6 +92,11 @@ func (c *AsyncClient) GetDispatcher() IDispatcher {
 	return c.dispatcher
 }
 
+// GetSession 获取会话信息
+func (c *AsyncClient) GetSession() ISession {
+	return c.session
+}
+
 // Close 关闭连接
 func (c *AsyncClient) Close() {
 	if nil != c.session {
