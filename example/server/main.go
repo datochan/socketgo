@@ -4,7 +4,7 @@ import (
 	"fmt"
 	socket "github.com/datochan/socketgo"
 	"github.com/datochan/socketgo/example/proto"
-	goproto "github.com/gogo/protobuf/proto"
+	goproto "google.golang.org/protobuf/proto"
 	"time"
 )
 

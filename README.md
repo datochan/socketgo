@@ -21,7 +21,7 @@ socket with golang
 Example的消息结构定义依赖 `google protobuf`, 因此需要提前安装好 `protoc` 和 `gofaster插件`。 然后按如下步骤执行:
 
 1. 进入 `example/proto`目录。
-2. 编译消息结构 `protoc --gofast_out=. *.proto`
+2. 编译消息结构 `protoc --go_out=. *.proto`
 3. 分别进入 client 和 server 目录，`go build`
 4. 执行编译出来的 `server` 和 `client` 即可。
 
